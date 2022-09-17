@@ -45,35 +45,24 @@ body {
     align-items: center;
 }
 .skills {
-    padding: 50px;
     flex: 1 1 auto;
     width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
 }
 
 .skills1 {
-    width: 850px;
     flex: 1 1 auto;
     font-size: 36px;
     font-style:italic;
     font-weight: lighter;
     color: #1f2937;
     background-color: #E5E7EB;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 150px;
 }
 
-.skills2 {
-    flex: 1 0 auto;
-    font-size: 24px;
-    font-weight: bold;
-    padding-right: 950px;
-    margin-bottom: 0px;
-}
 .thesis {
     flex:1;
     display: flex;
@@ -190,7 +179,7 @@ button a {
 .educationcards {
     flex: 1 1 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .card {
